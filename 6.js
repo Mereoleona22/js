@@ -22,3 +22,14 @@ console.log(kishore.toUpperCase()); //not changing original string
 
 console.log(kishore.charAt(2));
 console.log(kishore.indexOf('g'));
+
+const newstring = kishore.substring(0,4)
+console.log(newstring);
+
+const url = "https://kishore.com/kishore%20isgreat"
+console.log(url.replace('%20','-'));
+
+console.log(url.includes('kishore'))
+console.log(url.includes('kaushal'))
+
+
